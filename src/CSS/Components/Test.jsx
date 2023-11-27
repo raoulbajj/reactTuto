@@ -2,7 +2,13 @@ import React from 'react'
 
 const Test = () => {
     return (
-        <div>
+        <div className='bg-base-200 p-5 rounded-xl flex flex-col gap-10 items-center justify-center'>
+
+            <div className='text-center text-2xl'>
+                Ceci est le composant Test
+            </div>
+
+
             <div className="card w-96 bg-base-100 shadow-xl">
                 <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
                 <div className="card-body">
@@ -17,6 +23,8 @@ const Test = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>
     )
 }
