@@ -1,11 +1,11 @@
 import React from 'react'
+import Test from '../src/Test.jsx'
 
 function App() {
 
   return (
     <>
-      <p className="bg-red-400">Hello</p>
-
+      <Test />
     </>
   )
 }
